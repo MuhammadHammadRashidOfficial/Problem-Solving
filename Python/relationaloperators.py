@@ -1,8 +1,15 @@
-a = 3.14
-b = 1.618
-print('a>b is:', a>b)
-print('a<b is:', a<b)
-print('a<=b is:', a<=b)
-print('a>=b is:', a>=b)
-print('a==b is:', a==b)
-print('a!=b is:', a!=b)
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+
+if a > b:
+    print("a > b is:", a > b)
+elif a < b:
+    print("a < b is:", a < b)
+elif a <= b:
+    print("a <= b is:", a <= b)
+elif a >= b:
+    print("a >= b is:", a >= b)
+elif a == b:
+    print("a == b is:", a == b)
+elif a != b:
+    print("a != b is:", a != b)
