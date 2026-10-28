@@ -1,10 +1,7 @@
-# Code here
+number = int(input("Enter the number: "))
+factors = set()
 
-n = int(input("Enter the number: "))
- 
-print("The entered number is: ", n)
-
-for i in range(1, n, 1):
-    if n % i == 0:
-        print(f"{i} is a factor of {n}.\n")
-    
+for i in range(1, number + 1):
+    if number % i == 0:
+        factors.add(i)
+print("Factors =", factors)
