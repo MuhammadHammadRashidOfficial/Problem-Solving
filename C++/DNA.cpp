@@ -1,11 +1,19 @@
 #include <iostream>
 using namespace std;
 
-// Functions
 void input(char array[20]) {
     for (int i = 0; i < 20; i++) {
         cout << "Enter the nucleotide at index " << i << ": ";
         cin >> array[i];
+    }
+}
+
+
+void capitalize(char array[20]) {
+    for (int i = 0; i < 20; i++) {
+        if (array[i] >= 97 && array[i] <= 132) {
+            array[i] = array[i] - 32;
+        }
     }
 }
 
@@ -15,14 +23,6 @@ void display(char array[20]) {
         cout << array[i] << ' ';
     }
     cout << "\n";
-}
-
-void capitalize(char array[20]) {
-    for (int i = 0; i < 20; i++) {
-        if (array[i] >= 97 && array[i] <= 132) {
-            array[i] = array[i] - 32;
-        }
-    }
 }
 
 void displayHistogram(int count) {
