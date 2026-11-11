@@ -13,12 +13,11 @@ int gcd(int a, int b) {
 }
 
 int main() {
-    int A, B;
+    int a, b;
     printf("Enter the first number: ");
-    scanf("%d", &A);
+    scanf("%d", &a);
     printf("Enter the second number: ");
-    scanf("%d", &B);
-    
-    printf("The GCD is: %d", gcd(A, B)); 
+    scanf("%d", &b);
+    printf("The Greatest Common Divisor is: %d", gcd(A, B)); 
     return 0;
 }
