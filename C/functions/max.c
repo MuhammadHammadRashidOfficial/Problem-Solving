@@ -10,7 +10,11 @@ int Maximum(int a, int b) {
 }
 
 int main() {
-  int a = 10, b = 89;
+  int a, b;
+  printf("Enter the value of a: ");
+  scanf("%d", &a);
+  printf("Enter the value of b: ");
+  scanf("%d", &b);
   printf("The max is: %d", Maximum(a, b));
   return 0;
 }
