@@ -5,6 +5,10 @@ public class PrimeFactors {
       Scanner scanner = new Scanner(System.in);
       System.out.print("Enter a number: ");
       int number = scanner.nextInt();
+      if(number <= 1) {
+          System.out.print("Prime factors do not exist");
+          return;
+      }
       System.out.print("Prime factors of " + number + " are: ");
       
       for (int i = 2; i <= number; i++) {
