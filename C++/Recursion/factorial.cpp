@@ -12,6 +12,12 @@ int main() {
   int n;
   cout << "Enter the number: ";
   cin >> n;
-  cout << "The factorial is: " << factorial(n) << endl;
-  return 0;
+  if(n < 1) {
+      cout << "Factorial does not exist for a negative number" << endl;
+  }
+  else {
+      cout << "The factorial is: " << factorial(n) << endl;
+  
+  }
+    return 0;
 }
