@@ -1,20 +1,23 @@
 #include <iostream>
 using namespace std;
 
-int Sum(int n) {
-  int sum = n;
-  if(n == 0 || n == 1) {
-    return n;
+int Sum(int number) {
+  if(number == 0 ||number == 1) {
+    return number;
   }
   else {
-    return sum + Sum(n - 1);
+    return number + Sum(number - 1);
   }
 }
 
 int main() {
-  int n;
+  int number;
   cout << "Enter the number: ";
-  cin >> n;
-  cout << "The sum uptil number " << n << " is: " << Sum(n) << endl;
-  return 0; 
+  cin >> number;
+  if(number < 0) {
+      cout << "Unable to give answer." << endl;
+  }
+  else {
+      cout << "Answer is: " << Sum(number) << endl;
+  }
 }
