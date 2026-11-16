@@ -1,5 +1,3 @@
-// Decimal to Binary conversion for positive integers
-
 #include <iostream>
 using namespace std;
 
