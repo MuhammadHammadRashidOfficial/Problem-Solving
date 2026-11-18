@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int Minimum(int a, int b) {
-  if(a < b) {
-    return a;
+int minimumOfTwoNumbers(int number1, int number2) {
+  if(number1 < number2) {
+    return number1;
   }
   else {
-    return b;
+    return number2;
   }
 }
 
 int main() {
-  int a, b;
-  printf("Enter the value of a: ");
-  scanf("%d", &a);
-  printf("Enter the value of b: ");
-  scanf("%d", &b);
-  printf("The min is: %d", Minimum(a, b));
+  int number1, number2;
+  printf("Enter the first number: ");
+  scanf("%d", &number1);
+  printf("Enter the second number: ");
+  scanf("%d", &number2);
+  printf("The minimum of the two numbers is: %d", minimumOfTwoNumbers(number1, number2));
   return 0;
 }
