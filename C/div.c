@@ -1,11 +1,12 @@
-#include <stdio.h>
-int main() {
-  int a, b;
-  printf("Enter the value of a: ");
-  scanf("%d", &a);
-  printf("Enter the value of b: ");
-  scanf("%d", &b);
-  int div = a / b;
-  printf("Dividend is: %d", &div);
-  return 0;
-}
+// #include <stdio.h>
+
+// int main() {
+//   int number1, number2;
+//   printf("Enter the first number: ");
+//   scanf("%d", &number1);
+//   printf("Enter the second number: ");
+//   scanf("%d", &number2);
+//   int result = number1 / number2;
+//   printf("Dividend is: %d", &result);
+//   return 0;
+// }
