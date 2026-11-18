@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-  int a, b;
-  printf("Enter the value of a: ");
-  scanf("%d", &a);
-  printf("Enter the value of b: ");
-  scanf("%d", &b);
-  int prod = a * b;
-  printf("Product is: %d", &prod);
+  int number1, number2;
+  printf("Enter the first number: ");
+  scanf("%d", &number1);
+  printf("Enter the second number: ");
+  scanf("%d", &number2);
+  int productResult = number1 * number2;
+  printf("The answer is: %d", &productResult);
   return 0;
 }
