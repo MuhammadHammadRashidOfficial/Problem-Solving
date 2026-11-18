@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
   int a, b;
-  printf("Enter the value of a: ");
-  scanf("%d", &a);
-  printf("Enter the value of b: ");
-  scanf("%d", &b);
-  int dif = a - b;
-  printf("Difference is: %d", &dif);
+  printf("Enter the first number: ");
+  scanf("%d", &number1);
+  printf("Enter the second number: ");
+  scanf("%d", &number2);
+  int difference = number1 - number2;
+  printf("Difference is: %d", &difference);
   return 0;
 }
