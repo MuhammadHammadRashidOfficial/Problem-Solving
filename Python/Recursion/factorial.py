@@ -6,4 +6,7 @@ def FactorialOfANumber(number):
     return number * FactorialOfANumber(number - 1)
 
 number = int(input("Enter the value of number: "))
-print("The factorial of ", number, "is: ", FactorialOfANumber(number))
+if number < 0:
+  print("Factorial for a negative number does not exist")
+else:
+  print("The factorial of", number, "is:", FactorialOfANumber(number))
