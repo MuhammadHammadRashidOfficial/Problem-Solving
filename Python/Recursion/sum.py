@@ -1,9 +1,11 @@
-def Sum(n):
+def Sum(number):
     sum = 0
-    if n == 0 or n == 1:
-        return n;
+    if number < 0:
+        return -1
+    if number == 0 or number == 1:
+        return number;
     else:
-        return sum + Sum(n - 1)
+        return sum + Sum(number - 1)
 
-n = int(input("Enter the number n: "))
-print("The sum is: ", Sum(n))
+number = int(input("Enter the number: "))
+print("The sum is: ", Sum(number))
