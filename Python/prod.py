@@ -1,5 +1,4 @@
-# Product 
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
-prod = a * b
-print("The product is: ", prod)
+number1 = int(input("Enter number 1: "))
+number2 = int(input("Enter number 2: "))
+product = number1 * number2
+print("The product is: ", product)
