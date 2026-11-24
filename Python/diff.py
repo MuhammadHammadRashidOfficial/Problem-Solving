@@ -1,4 +1,4 @@
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
-diff = a - b
-print("The difference is: ", diff)
+number1 = int(input("Enter number 1: "))
+number2 = int(input("Enter number 2: "))
+difference = number1 - number2
+print("The difference is: ", difference)
