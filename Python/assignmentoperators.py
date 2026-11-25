@@ -1,12 +1,7 @@
-# Code here
-
-a = 100
-b = 20
-
-print(a + 5)
-print(a - 5)
-print(a * 5)
-print(a / 5)
-
-print(a // 5)   # gives the value of quotient
-print(a % 5)    # gives the value of remainder
+number1 = 100
+print(number1 + 5)
+print(number1 - 5)
+print(number1 * 5)
+print(number1 / 5)
+print(number1 // 5)   
+print(number1 % 5)    

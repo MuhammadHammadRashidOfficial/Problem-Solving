@@ -1,4 +1,4 @@
-def GuessTheQuadrant(x, y):
+def guessTheQuadrant(x, y):
     if x > 0 and y > 0:
         print("Quadrant 1")
     elif x < 0 and y > 0:
@@ -12,4 +12,4 @@ def GuessTheQuadrant(x, y):
 
 x = int(input("Enter x: "))
 y = int(input("Enter y: "))
-GuessTheQuadrant(x, y)
+guessTheQuadrant(x, y)
