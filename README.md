@@ -1,6 +1,6 @@
 # ✨ Problem Solving
 
-A collection of simple code snippets and solutions to common programming problems, implemented in **Python, Java, C, and C++**.
+A collection of simple code snippets and solutions to common programming problems, implemented in **Python, Java, C, and C++**
 
 ### 🛠️ Languages
 
